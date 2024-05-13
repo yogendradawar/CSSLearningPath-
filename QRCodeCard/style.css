@@ -1,0 +1,57 @@
+h1{
+    font-size: 2rem;
+    }
+    
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    
+    html,body{
+        
+        padding-top: 25px;
+        padding-left: 25px;
+        background-color: lightblue;
+    }
+    
+    .container{
+        /* background-color: rgb(61, 70, 172); */
+        display: flex;
+        padding: 20px;
+        height: 500px;
+        width: 800px;
+        background-color: white;
+        border-radius:12px ;
+    }
+    
+    #leftBox{
+        font-size: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding: 50px;
+        width: 40%;
+    
+    }
+    
+    #leftBox h2{
+        margin-bottom: 30px;
+    }
+    
+    #leftBox p{
+        line-height: 35px;
+    }
+    
+    #rightBox{
+        background-color: rgb(225, 189, 240);
+        border-radius: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+    }
+    
+    #rightBox img{
+        height: 300px;
+    }
