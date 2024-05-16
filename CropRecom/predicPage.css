@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.form-container {
+  height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url(./crop2.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.input-form {
+  /* background-color: lightcoral; */
+  width: 45%;
+}
+
+.input-form h1 {
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 35px;
+}
+
+.input-form p {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.input-form input {
+  width: 100%;
+  outline: none;
+  margin-bottom: 15px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+.input-form button {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 15px;
+  width: 100px;
+  border: 0;
+  border-radius: 25px;
+  background-color: #fff;
+  margin-left: 42%;
+  cursor: pointer;
+}
+
+.input-form button:hover {
+  color: #5fb43e;
+}
