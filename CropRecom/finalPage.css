@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+  }
+
+  .container {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.75),
+        rgba(0, 0, 0, 0.75)
+      ),
+      url(./crop3.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+  }
+
+  .result{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .result h1,h2{
+    margin-bottom: 20px;
+  }
