@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            width: 100vw;
+            height: 100vh;
+            background-color: lightblue;
+            border: 5px solid rgb(15, 14, 10);
+        }
+
+        .box{
+            width: 300px;
+            height: 90px;
+            background-color: lightgreen;
+            border: 2px solid black;
+            margin: 15px;
+            border-radius: 15px;
+            position: relative;
+            /* animation-name:myAnimation;
+            animation-duration: 5s;
+            animation-delay: 2s;
+            animation-iteration-count: 1;
+            animation-timing-function: linear;
+            animation-direction: alternate; */
+            /* animation-fill-mode: both; */
+            /* animation-play-state:running; */
+
+            animation : 3s linear 1s infinite alternate none running myAnimation
+        }
+
+        
+        @keyframes myAnimation {
+            from{
+                top : 0;
+                left : 0;
+            }
+            to{
+                top: 0;
+                left: 900px;
+            }
+        }
+        
+        .box2{
+            width: 300px;
+            height: 90px;
+            background-color: lightgreen;
+            border: 2px solid black;
+            margin: 15px;
+            border-radius: 15px;
+            position: relative;
+            animation : 3s linear 1s infinite alternate none running my2Animation;
+        }
+
+        @keyframes my2Animation {
+            from{
+                top : 320px;
+                left: 900px;
+            }
+            to{
+                top : 320px;
+                left : 0px;
+            }
+        }
+
+        .circle{
+            width: 50px;
+            height: 50px;
+            background-color: lightcoral;
+            border: 1px solid black;
+            margin: 15px;
+            border-radius: 50px;
+            position: relative;
+            top:25%;
+            left: 50%;
+            animation : 10s ease-in-out 0s infinite alternate-reverse none running myCircle ;
+        }
+
+        @keyframes myCircle {
+            0%{
+                top:1%;
+                left:5%;
+            }
+
+            20%{
+                top:5%;
+                left: 80%;
+            }
+
+            70%{
+                top:55%;
+                left: 10%;
+            }
+
+            100%{
+                top:50%;
+                left: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box"></div>
+        <div class="circle"></div>
+        <div class="box2"></div>
+    </div>
+</body>
+</html>
